@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="30dp"
+    app:cardCornerRadius="8dp"
+    android:backgroundTint="@color/overlay_dark_30">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/overlay_light_90"
+        android:layout_margin="1dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="2dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pic"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/profile"
+                android:layout_marginRight="10dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name surname"
+                android:layout_gravity="center"
+                android:textColor="@color/overlay_dark_90"
+                android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/profession"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Profession"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/overlay_dark_30"
+            android:padding="2dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_margin="2dp"
+       >
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/desc"
+            android:src="@mipmap/ic_launcher"
+            android:visibility="gone"/>
+
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginBottom="10dp"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:text="This is the description of the post.This will continue upto 4 linesand then ellipsize would be shown."
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textColor="@color/overlay_dark_90"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <VideoView
+            android:id="@+id/video"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/desc"
+            android:visibility="gone"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pdf"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/desc"
+            app:cardCornerRadius="10dp"
+            android:visibility="gone"
+            android:background="@color/grey_300">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey_300">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_marginRight="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="PDF File"
+                    android:textColor="@color/overlay_dark_90"
+                    android:textSize="30dp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+    </RelativeLayout>
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="date"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
