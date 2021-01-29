@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "855137658707",
+    "firebase_url": "https://platform-3e4a9.firebaseio.com",
+    "project_id": "platform-3e4a9",
+    "storage_bucket": "platform-3e4a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855137658707:android:054294cc17997cf8e1a3a6",
+        "android_client_info": {
+          "package_name": "com.devhack.platform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855137658707-uevbmijgo4ghjf2chjrgpt729q9p5o2l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devhack.platform",
+            "certificate_hash": "7e6278d029502fbeabd031fbd0198cec69a865bb"
+          }
+        },
+        {
+          "client_id": "855137658707-ps1k02p8tat9k466snjvluhpb3gpu7g4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devhack.platform",
+            "certificate_hash": "dff5f3a0f38233502e984af5d7ad43caf82640b9"
+          }
+        },
+        {
+          "client_id": "855137658707-d0uj6vd8htqvs4pdq98u5ul0fcb01ddl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsO_M8ae8C1AKz6fhjfgnQRxy7w4tFLgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855137658707-d0uj6vd8htqvs4pdq98u5ul0fcb01ddl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

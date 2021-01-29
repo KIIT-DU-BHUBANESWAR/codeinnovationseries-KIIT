@@ -1,0 +1,123 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="fragments.PostFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="CREATE POST"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textColor="@color/overlay_dark_90"
+                android:textStyle="bold"
+                />
+            <ImageButton
+                android:background="@drawable/ic_done_all_black_24dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/submitbtn"
+                android:elevation="30dp"/>
+
+        </LinearLayout>
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:hint="Enter title"/>
+    <EditText
+        android:id="@+id/edit_post"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:gravity="start"
+        android:background="@drawable/textview_design"
+        android:hint="Enter your description here"
+        />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/doc"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:visibility="gone"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/pdf"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/desc"
+                android:background="@color/grey_300"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/grey_300">
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_marginRight="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Document Attached"
+                        android:textColor="@color/overlay_dark_90"
+                        android:textSize="30dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Add Hashtags+"/>
+
+            <ImageButton
+                android:id="@+id/img"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/camera"
+                android:layout_toLeftOf="@id/attachbtn"
+                android:layout_marginRight="10dp"/>
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/attachbtn"
+                android:background="@drawable/ic_attachment_black_24dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>
