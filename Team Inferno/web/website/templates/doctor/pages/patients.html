@@ -1,0 +1,99 @@
+{% extends "doctor/layout.html" %}
+{% block title %}Patients{% endblock %}
+{% block body %}
+
+
+      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <ul class="sidebar-menu" data-widget="tree">
+        <li class="header">MAIN NAVIGATION</li>
+        
+        
+        <li>
+          <a href="{{url_for('doc_dash')}}">
+            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+          </a>
+        </li>
+        
+        <li class="active">
+          <a href="{{url_for('doc_pat')}}">
+            <i class="fa fa-user"></i> <span>Patients</span>
+          </a>
+        </li>
+        
+        <li class="header">PROFILE</li>
+        <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Update Profile</span></a></li>
+      </ul>
+    </section>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        Patients
+        <small>Control panel</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">Dashboard</li>
+      </ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <!-- Small boxes (Stat box) -->
+
+
+        
+        <div class="box">
+            <div class="box-header">
+              <h3 class="box-title">Patients</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <table id="example1" class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                  <th>Sl. No.</th>
+                  <th>Name</th>
+                  <th>Date</th>
+                  <th>Documents</th>
+                  <th>Prescription</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>John Doe</td>
+                  <td>31 January,2021</td>
+                  <td><button type="button" class="btn btn-block btn-warning btn-sm">View</button></td>
+                  <td><button type="button" class="btn btn-block btn-info btn-sm">Write</button></td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <th>Sl. No.</th>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Documents</th>
+                    <th>Prescription</th>
+                </tr>
+                </tfoot>
+              </table>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        
+        
+
+
+
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+   
+{% endblock %}

@@ -1,0 +1,9 @@
+{
+	"params":
+	{
+		"local_server": "True",
+		"local_uri": "mysql://root:@localhost/inferno",
+		"prod_uri": "mysql+pymysql://root:@localhost/inferno",
+		"upload_location" : "C:\\Users\\KIIT\\Desktop\\Team Inferno\\web\\website\\reports"
+	}
+}

@@ -1,0 +1,108 @@
+{% extends "patient/layout.html" %}
+{% block title %}MRI Scan{% endblock %}
+{% block body %}
+
+
+      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <ul class="sidebar-menu" data-widget="tree">
+        <li class="header">MAIN NAVIGATION</li>
+        
+        <li>
+          <a href="{{url_for('pat_dash')}}">
+            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+            
+          </a>
+        </li>
+        
+        
+        
+        <li class="active treeview">
+          <a href="#">
+            <i class="fa fa-cloud-upload"></i> <span>Upload Reports</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+              <small class="label pull-right bg-green">new</small>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li class="active"><a href="{{url_for('pat_mri_scan')}}"><i class="fa fa-circle-o text-red"></i> MRI Scan</a></li>
+            <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> X-Rays</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="fa fa-file"></i> <span>Previous Reports</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="">
+            <i class="fa fa-cloud-download"></i> <span>Download Prescription</span>
+          </a>
+        </li>
+        
+        <li class="header">PROFILE</li>
+        <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Update Profile</span></a></li>
+      </ul>
+    </section>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        Report
+        <small>Control panel</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">Dashboard</li>
+      </ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <!-- Small boxes (Stat box) -->
+      <div align="center">
+        <br>
+      {% if 1==val %}
+      <p style="font-size: large;">Unfortunately, you have been detected with brain tumor!</p>
+      {%else%}
+      <p style="font-size: large;">Yay! you are absolutely fine.</p>
+      {%endif%}
+    </div>
+      <div class="row">
+        <!-- Left col -->
+        <section class="col-lg-7 connectedSortable">
+          
+          
+          
+          
+          
+          
+        </section>
+        <!-- /.Left col -->
+        <!-- right col (We are only adding the ID to make the widgets sortable)-->
+        <section class="col-lg-5 connectedSortable">
+          
+          
+          
+          
+          
+          
+          
+          
+        </section>
+        <!-- right col -->
+      </div>
+      <!-- /.row (main row) -->
+
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+   
+{% endblock %}
