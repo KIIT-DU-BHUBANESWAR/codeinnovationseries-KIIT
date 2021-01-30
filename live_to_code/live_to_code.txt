@@ -1,0 +1,78 @@
+Virtual Lab Classes
+(using AR/VR/MR technology)
+
+What is ….
+Augmented reality (AR) adds digital elements to a live view often by using the camera on a smartphone.
+
+Virtual reality (VR) implies a complete immersion experience that shuts out the physical world.
+
+Mixed Reality (MR) experience, which combines elements of both AR and VR, real-world and digital objects interact.
+
+
+
+
+COVID affecting Education
+Student tend to become lethargic during online classes
+
+Less interaction.
+
+Covid affecting Practical Education
+The essence of practical education is hampered.
+Students are not able to grasp the actual concept through various online methods.
+Hands-on experience is hindered.
+
+                   Implementation
+HOW
+STEP 1 : We will take the photos of the Labs & classes to make a augmented reality OR you can say that we will Live detect OR Indirect view of the Physical real Class room & Labs.
+
+STEP 2 :  We will make a prototype of the 3D Model. To make that we will use 3D Modeling software(Autodesk Maya).
+
+
+STEP 3 : Now the framework we will use is Unity software.
+
+STEP 4 : Integrating the AR & VR with the Mobile App.
+
+STEP 5 : There are wide variety of Head Mounted Display , but for better experience we will choose a VR as per the expense & budget.
+
+
+
+Where
+Effortless involvement while sitting at home.
+
+the advanced development of the VR devices has made VR an affordable and suitable interface for educations in different levels, including primary schools, secondary schools, colleges, and universities. 
+
+Availing subscription based service for novice researchers on heavy and non-affordable machineries.
+
+Cost efficient
+Easy to implement in remote location.
+
+
+
+         Past implementation by some  institution.
+
+
+
+
+ In 2007, Hougang Elementary school in Singapore applied an AR prototype in a typical primary (11 years-old) class to facilitate the learning of seed germination and plant growth
+
+ EdTech giant BYJU’s pavilion there is a game based augmented reality lesson.
+
+
+
+
+Software giant TCS showcased a virtual chemistry lab. Wearing an Oculus headset you enter a virtual lab.
+
+Benefits
+3D models of components – and even the entire vehicle – long before physical parts are available.
+
+Can make bodywork appear transparent to reveal the parts and systems underneath.
+
+Vastly reduces the number of costly physical prototypes.
+
+Contd..
+Focus on one subject: VR headsets completely overwhelm students and force them to concentrate on one subject of studying 100%.
+AR adds value to the courses because it recognizes when it is time to show contextual information related to the studying subject
+AR and VR can be used to design a virtual classroom with students from all over the world.
+Every outdoor sport with AR VR can be used to Train them better without damaging the body. Example Fencing , Boxing , Sport Which includes physical body practices.
+
+THANK YOU
