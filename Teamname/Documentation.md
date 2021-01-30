@@ -3,7 +3,7 @@
 # Adhyan
 ## Immersive Study Solution
 #### **Team :** *Teamname*
-#### **Video Walkthrough:** Link 
+#### **Video Walkthrough:** [Link](https://drive.google.com/file/d/1kdjFySwUpEFdY5VY3iAE0VahWF9rxZ-C/view?usp=sharing) 
 #### Description
 **Adhyan** is our most aspiring mobile application in the **Education** domain. We all are aware of the challenges our education sector have been introduced to during this pandemic. Online schools and boring video lectures made the whole learning process slow and overall development stagnant. 
 We came-up with an idea to use the pre-existing technologies to add it to the normal workflow and make the whole process easier and good to go. [**Augmented Reality**](https://en.wikipedia.org/wiki/Augmented_reality) being a technology with the sole purpose of enhancing the UX got our attention. Exploring it we got to know it’s various applications and condensed our ideas to provide solutions for the Education domain.
