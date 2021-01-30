@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/4/journal/bootstrap.min.css" />
+    <title>Medizinaid</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float">
+</head>
+
+
+<body style="background-image: url(./Untitled\ design\ \(1\).png); background-repeat: no-repeat; background-size: cover;">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+        <div class="container" style="align-self: center; text-align: center;">
+            <a class="navbar-brand" href="./login.html">LOGIN</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./firstaid.html">First Aid</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./ourdoctor.html">Our Doctors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./emergency.html">Emergency</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                        </ul>
+                        
+        </nav>
+    </div>
+    <div class="row mt-5">
+        <div class="col-md-6 m-auto">
+            <div class="card card-body" style="opacity: 4.2;">
+                <div style=" background-color:rgba(255, 68, 0, 0.979) ;text-align: center; color: aliceblue;">
+                    <h1 style="font-family:'Tangerine', serif; font-size: 50px;text-shadow: 4px 4px 5px gray;">Login</h1>
+                    <br>
+                </div>
+                <br>
+                <br>
+                <nav style="background-color: orangered;box-shadow: 10px 10px grey;">
+                    <ul class="nav justify-content-center navbar nav"
+                        style=" text-align: center;margin-top: 10%; margin-left: 40%; margin-bottom: 50px; margin-right: 40%;">
+                        <form action="./home.html" method="POST" id="doctor">
+                            <p>Username <input type="email" name="email" id="email"></p>
+                            <p>Password <input type="password" name="password" id="password"></p>
+
+                            <button type="submit" [disabled]="!form.form.valid">
+                                Login
+                            </button>
+                        </form>
+                        <p>Not<a href="./reg2.html" style="color: aliceblue;"> Registered?</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
