@@ -1,5 +1,5 @@
 
-![Adhyan Logo](https://files.000webhost.com/handler.php?action=download?action=download&path=%2Fpublic_html%2FIcon.png?raw=true)  
+![AdhyanLogo](https://github.com/Praddy2009/codeinnovationseries-KIIT/blob/main/Teamname/Adhyan(Project_dir)/Code/Icon.png)  
 # Adhyan
 ## Immersive Study Solution
 #### **Team :** *Teamname*
