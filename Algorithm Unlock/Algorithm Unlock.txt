@@ -1,0 +1,14 @@
+Documentation
+
+
+We are planning to bring Digital Currency (DC) which will be used for the transactions in financial transactions and the NGO/Non Profit organization .
+The sole administrator and distributor of the digital currency(DC) will be the banking sectors and would be directly regulated by RBI. 
+The main concept of the revolutionary idea is to monitor and analyse large sets of transaction’s data between banks and other financial institutions 
+and identify as well as mitigate patterns of money flows which are indicative of money laundering, terrorist financing, or other financial crime.
+
+Contents- PPT and Video
+
+
+
+
+We have come up with this idea but we are not having a prototype as of now.
