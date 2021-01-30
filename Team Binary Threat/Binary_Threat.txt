@@ -1,0 +1,37 @@
+Smart Attendance and Class Monitoring System
+
+1)Description:  
+Background: -
+Regular class attendance of students' plays a significant role in performance assessment and quality monitoring. But during Online classes, its quite difficult to monitor students by the convectional way, by calling out names. Moreover, its highly time consuming.
+Our project presents a smart attendance and class monitoring system. In this project, students are required to authenticate themselves by putting their roll numbers, and then, they are tracked using the in-built camera of their device. Their activity, like looking at the screen, will be tracked throughout the class.
+The project is implemented using the following libraries: -
+	face_recognition,
+ cv2 (OpenCV),
+ numpy
+ dlib
+  
+2)	Contents:
+The project consists: - 
+	assets/ - 	contains pictures used in website
+index - 	html file
+styles - 	css file
+script – j	avascript file
+data/faces - 	Contains all the stored faces for face recognition
+main.py - 	Driver program to detect faces and log info
+result.json - 	All the info is logged into a json file which can be parsed and used later
+shape_predictor_68_face_landmarks.dat - Pre-trained face detection model for dlib
+
+3)	Ways to Host the project: 
+Currently the project is in its prototype phase, which runs on the local machine.
+But this is integrable for Web and app version. 
+
+
+
+
+
+
+
+
+
+
+
