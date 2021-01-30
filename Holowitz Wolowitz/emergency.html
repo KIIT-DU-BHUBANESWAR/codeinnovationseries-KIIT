@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://bootswatch.com/4/journal/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <title>Medizinaid</title>
+</head>
+
+<body style="align-self: center;background-image: url(./Untitled\ design\ \(1\).png); background-repeat: no-repeat; background-size: cover; background-size: 100% 100%; ">
+  <div class="container">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"></script>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="background-color: rgba(255, 68, 0, 0.137);box-shadow: 5px 5px grey; width:
+               700px;margin-left: 370px;margin-top: 30px;align-content: center;opacity: 1.2px;">
+        <div class="container">
+          <a class="navbar-brand" href="./login.html">LOGIN</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation">
+            Menu
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./firstaid.html">First Aid</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ourdoctor.html">Our Doctors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./emergency.html">Emergency</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+      
+            </ul>
+      
+      </nav>
+      </div>
+      <h1 style="text-align: center;font-family:'Tangerine', serif; font-size: 100px; text-shadow: 4px 4px 5px gray;color:rgb(252, 14, 14); margin-top: 200px;font-size: size 2000px;">Emergency</h1>
+                  <div style="text-align: center; padding-left: 40px; padding-top: 30px;padding-bottom: 20px; padding-right: 30px;">
+                   <p>In this Emergency section, the patient will choose the specified medical field and as they choose any tab, immediately
+                  an alert is sent to the Doctor assigned for the emergency.
+                  If the assigned Doctor doesn't respond to the alert within 2 minutes, then the site automatically assigns the next
+                  doctor on duty for an emergency.
+                  This process continues till a doctor accepts the alert.</p>
+                  </div>
+                <div class="container" style="margin-left:400px;margin-top:150px;">
+                  <button type="button" class="btn btn-secondary " style="display: grid;justify-content: space-evenly;background-color: burlywood;width: 150px;" onclick="myFunction()" >Cardiologist </button>
+                  <br>
+                  <button type="button" onclick="myFunction2()"   style="display: grid;justify-content: space-evenly;float: left;width: 150px;" class="btn btn-primary">Veterinarian</button>
+                  <br><br><br>
+                  <button type="button" onclick="myFunction3()" style="background-color: rgb(146, 92, 21);width: 150px;"  class="btn btn-secondary">Neurologist</button>
+                  <br><br>
+                  <button type="button" onclick="myFunction4()" style="width: 150px;" class="btn btn-success">Psychiatrist</button>
+                  <br><br>
+                </div>
+                  <script>
+                    function myFunction() {
+                      alert("Alert sent to Dr. Leo Mark!");
+                    }
+                  </script>
+                  <script>
+                    function myFunction2() {
+                      alert("Alert sent to Dr. Callie Torres!");
+                    }
+                  </script>
+                  <script>
+                    function myFunction3() {
+                      alert("Alert sent to Dr. Sam Wan! ");
+                    }
+                  </script>
+                  <script>
+                    function myFunction4() {
+                      alert("Alert sent to Dr. Lisa Vio!");
+                    }
+                  </script>
+        </body>
+        </html>
