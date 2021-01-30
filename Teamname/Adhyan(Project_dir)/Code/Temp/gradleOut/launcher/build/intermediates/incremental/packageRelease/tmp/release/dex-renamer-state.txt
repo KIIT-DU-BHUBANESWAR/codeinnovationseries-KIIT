@@ -1,0 +1,4 @@
+#Sat Jan 30 16:31:28 IST 2021
+base.0=/home/praddyum/Team_Beta/Temp/gradleOut/launcher/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex
