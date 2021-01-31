@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 0.7;
+    background: dodgerblue;
+}
+
+table {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    /* height: 400px; */
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(32, 32, 32, .3);
+    background: #fafafa;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 12px 15px;
+}
+
+th {
+    background: #011c39;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+td {
+    font-family: 'Open Sans', sans-serif;
+}
+
+tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+
+button {
+    border-radius: 12px;
+    font-size: 16px;
+    padding: 5%;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+button:hover {
+    background: dodgerblue;
+}
+
+.approve {
+    background: green;
+}
+
+.disapprove {
+    background: red;
+}

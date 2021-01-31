@@ -1,0 +1,37 @@
+Description of Digibadge :-
+
+Our platform named Digibadge tries to solve the difficulty faced by users in education field .
+this platform helps user to recognize their skills by awarding badges it different domains this motivates the user to learn new technologies and get badges.
+It also contains a test system to evaluate the performance and a criteria to provide badges to users .
+there is a discussion forum that user can use it to solve their queries , ask a query ,  post comments to the queries . 
+There is also a section of playlist for e-learning which contains videos of latest technologies . 
+Also it contains blog about different trending technologies.
+
+
+Tech - Stack :-  HTML , CSS , JAVASCRIPT , PHP , JQUERY , MYSQL
+
+Project - Content :-
+	
+1)index.html
+2)discussion page
+3)sign-in/sign-out page
+4) test page
+5) blog page/e-learning page
+6) comment page
+7) user-profile page
+8) search page
+
+Note - All the above page has also their respective page containing backend implementation.
+
+
+
+Ways to host it on localhost :-
+
+step-1) Install xampp in the system
+step-2) run apache and mysql server
+step-3) open localhost and then phpmyadmin the web browser
+step-4) First download the database dump and import it the localhost
+step-5) put the project folder in the htdocs folder inside xampp folder
+step-6) go to the browser and open localhost://incubate/prototype/index.html
+step-7) register or sign-in and then access/navigate different features like test , blogs and discussion forum
+ 

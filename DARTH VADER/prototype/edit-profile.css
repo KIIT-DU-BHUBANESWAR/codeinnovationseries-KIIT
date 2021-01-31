@@ -1,0 +1,287 @@
+body {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+nav {
+  background-color: #0082e6;
+  height: 80px;
+  width: 100%;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding-top: 0px;
+  border-radius: 5px;
+}
+
+header ul {
+  padding-top: 10px;
+}
+
+header a {
+  margin-right: 10px;
+  margin-left: 20px;
+  text-decoration: none;
+  border-radius: 0px;
+  padding: 10px 50px 10px 50px;
+  color: white;
+}
+
+ul > li {
+  margin-left: 0px;
+}
+
+header li a:hover {
+  background: #1b9bff;
+  transition: 0.5s;
+}
+
+.active {
+  background: #1b9bff;
+  transition: 0.5s;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+div {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 85.7%;
+  border-style: none;
+  height: 35px;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+  background-color: gainsboro;
+}
+
+select {
+  width: 85.7%;
+  border-style: none;
+  height: 35px;
+  border-radius: 4px;
+  background-color: gainsboro;
+}
+
+input:focus {
+  outline: none;
+  height: 35px;
+  width: 90%;
+}
+
+.Gender input {
+  display: inline;
+  width: 20px;
+  height: 20px;
+  transition: none;
+}
+
+.Gender input:focus {
+  display: inline;
+  transition: none;
+  height: 20px;
+  width: 20px;
+}
+
+.profession input {
+  display: inline;
+  width: 20px;
+  height: 20px;
+  transition: none;
+}
+
+.profession input:focus {
+  display: inline;
+  transition: none;
+  height: 20px;
+  width: 20px;
+}
+
+input:focus + label {
+  font-weight: bold;
+  font-size: 2px;
+  color: red;
+}
+
+.btn {
+  border: 1px solid #3498db;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.6s;
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.corousal_btn1 {
+  color: #3498db;
+}
+.corousal_btn1:hover {
+  color: #fff;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #3498db;
+  z-index: -1;
+  transition: 0.6s;
+}
+.corousal_btn1::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.corousal_btn1:hover::before {
+  height: 180%;
+}
+.content {
+  text-align: center;
+}
+
+.left {
+  display: inline-block;
+  width: 20%;
+  height: 753px;
+  float: left;
+}
+
+.right {
+  float: right;
+  width: 40%;
+  height: 673px;
+  padding-top: 80px;
+}
+
+.middle {
+  display: inline-block;
+  width: 40%;
+  height: 673px;
+  padding-top: 80px;
+}
+
+.profile-image {
+  padding-top: 32.5%;
+  padding-left: 7%;
+}
+
+.resume {
+  padding-left: 7%;
+}
+
+.footer {
+  width: 100%;
+  height: 70%;
+  background: #2c3e50;
+  display: block;
+}
+.inner_footer {
+  width: 95%;
+  margin: auto;
+  padding: 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.footer_items {
+  width: 25%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.footer_items h1 {
+  padding: 10px 0;
+  font-size: 25px;
+  color: #fff;
+}
+.footer_items p {
+  color: grey;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 25px;
+}
+.footer_items h2 {
+  margin: 10px 0;
+  color: grey;
+  font-size: 16px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+.border {
+  height: 2px;
+  width: 40px;
+  background: #1b9bff;
+}
+.border ul {
+  list-style: none;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+.border ul a {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  transition: 0.3s;
+}
+.border ul a:hover {
+  color: #1b9bff;
+}
+.border ul li {
+  margin: 10px 0;
+  height: 25px;
+}
+.border ul li i {
+  margin-right: 20px;
+}
+.social_media {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+.social_media a {
+  text-decoration: none;
+}
+.social_media i {
+  height: 15px;
+  width: 15px;
+  margin: 20px 5px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid grey;
+  transition: 0.3s;
+}
+.social_media i:hover {
+  background: grey;
+}
+.footer_bottom {
+  padding: 10px;
+  background: #3d545f;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 70px;
+  text-align: center;
+}
+@media screen and (max-width: 1085px) {
+  .footer_items {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer_items {
+    width: 100%;
+  }
+}

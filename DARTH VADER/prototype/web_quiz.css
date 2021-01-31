@@ -1,0 +1,123 @@
+html, body {
+    height: 100%;
+} 
+ .inst{
+     padding-top:2em;
+     padding-left:18em;
+    
+ } 
+.instr,.ques{
+    background-color: darkcyan;
+    height:20em;
+    margin-top:0em;
+    margin-left:20em;
+    margin-right:20em;
+    border: 5px solid black;
+    transition: 0.3s;
+    box-shadow: 0 0.5 0.75em 0 rgb(0,0,0);
+    
+}
+.instr:hover {
+    box-shadow: 0 0.5em 1em 0 rgba(0,0,0,1);
+  }
+  .button {
+    display: inline-block;
+    border-radius: 1em;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size:2em;
+   
+    
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left:11em;
+    margin-top: 1em;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    margin-right:0.5em;
+    margin-left:0.4em;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 10px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .hide{
+      display:none;
+  }
+ #answer-buttons{
+   
+   padding-top:3em;
+ }
+ .start-btn, .next-btn,.exit-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.5em 1em;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:4em;
+}
+.btn-grid {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+.btn1{
+  background-color:blue;
+
+}
+.button1 {
+  display: inline-block;
+  
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size:2em;
+ 
+ width:5em;
+ height:2em; 
+ 
+  cursor: pointer;
+  margin-left:10em;
+  margin-top: 1em;
+}
+.ques{
+  margin-top:10em;
+}
+.timer{
+  margin-left:23em;
+  margin-right:25em;
+  background-color: cornsilk;
+  margin-top:0.5em;
+  margin-bottom:1em;
+  padding-left:0.25em;
+}
+.instr{
+  margin-top:10em;
+}

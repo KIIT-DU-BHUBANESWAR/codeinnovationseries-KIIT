@@ -1,0 +1,94 @@
+.thread {
+    /* background-color:gray; */
+    display: inline-block;
+    width: 70%;
+}
+
+.suggestions {
+    float: right;
+    width: 30%;
+    /* background-color: bisque; */
+    height: 100%;
+    padding: 0px 0px 0px 0px;
+}
+
+.user {
+    display: inline-block;
+    width: 10%;
+    float: left;
+    height: 100px;
+    padding-left: 20px;
+}
+
+.question {
+    background-color: lavender;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.userReply {
+    padding-left: 5px;
+}
+
+.date {
+    font-size: 12px;
+    font-style: oblique;
+    margin-top: 0px;
+}
+
+.description {
+    padding-bottom: 4px;
+}
+
+textarea {
+    border-radius: 15px;
+}
+
+input {
+    border: 2px;
+    cursor: pointer;
+    margin-left: 14px;
+    width: 70px;
+    height: 30px;
+}
+
+
+/* Discussion Question */
+
+.questions {
+    margin-top: 12%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.userBox {
+    display: table;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.indivUser {
+    display: table-row;
+    padding-bottom: 2%;
+}
+
+.userLogo {
+    display: table-cell;
+    width: 6%;
+}
+
+.userDate {
+    display: table-cell;
+}
+
+.userDescription {
+    display: table-cell;
+    line-height: 1.7em;
+    font-size: 18px;
+}
+
+.userThreadLabel {
+    font-weight: bold;
+    font-size: 24px;
+}
