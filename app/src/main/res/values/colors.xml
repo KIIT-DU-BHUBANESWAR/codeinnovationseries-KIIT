@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="fab_pressed">#546e7a</color>
+    <color name="darkgrey">#757575</color>
+    <color name="colorPrimary">#4D53E0</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="grey">#9096A3</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="middlegrey">#A8A8A8</color>
+    <color name="yellow">#f6d126</color>
+    <color name="green">#388E3C</color>
+    <color name="color_primary">#6200ee</color>
+    <color name="color_primary_dark">#0400ba</color>
+    <color name="color_primary_variant">#9e47ff</color>
+    <color name="color_on_primary">#FFFFFF</color>
+    <color name="color_secondary">#2193b0</color>
+    <color name="color_secondary_variant">#61c4e2</color>
+    <color name="color_secondary_dark">#006580</color>
+    <color name="color_on_secondary">#FFFFFF</color>
+    <color name="color_error">#F44336</color>
+    <color name="color_on_error">#FFFFFF</color>
+    <color name="color_surface">#FFFFFF</color>
+    <color name="color_on_surface">#000000</color>
+    <color name="color_background">#f5f5f5</color>
+    <color name="color_on_background">#000000</color>
+    <color name="color_status_bar">#FFFFFF</color>
+    <color name="color_tool_bar">#FFFFFF</color>
+    <color name="primary_text_color">#ffffff</color>
+    <color name="secondary_text_color">#000000</color>
+    <color name="color_Transparent">@android:color/transparent</color>
+    <color name="color_White">#FFFFFF</color>
+
+    <color name="darkGreen">#55828b</color>
+    <color name="lightPurple">#c4b7cb</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="lightGreen">#bfedef</color>
+    <color name="lightGrey">#eeeeee</color>
+    <color name="darkGrey">#bbc7ce</color>
+    <color name="darkPurple">#161b33</color>
+    <color name="bg_color">#f3f5f9</color>
+    <color name="gradientViolet">#8A52E9</color>
+    <color name="gradientLightBlue">#376DF6</color>
+    <color name="colorPrimaryace">#303F9F</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="card_bg">#fff</color>
+    <color name="card_title">#81C784</color>
+    <color name="card_desc">#ddd</color>
+
+    <!-- dots inactive colors -->
+    <color name="blue">#4fc3f7</color>
+    <color name ="blue_">#84FFFF</color>
+    <color name="dot_dark_screen">#026499</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen">#448bb2</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen</item>
+        <item>@color/dot_dark_screen</item>
+        <item>@color/dot_dark_screen</item>
+        <item>@color/dot_dark_screen</item>
+        <item>@color/dot_dark_screen</item>
+    </array>
+
+</resources>

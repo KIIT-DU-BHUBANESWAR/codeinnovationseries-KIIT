@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/all_poses"
+        android:title="All Poses" />
+    <item
+        android:id="@+id/all_sessions"
+        android:title="All Sessions " />
+    <item
+        android:id="@+id/add_session"
+        android:title="Add Session" />
+    <item
+        android:id="@+id/add_pose"
+        android:title="Add Pose" />
+    <item
+        android:id="@+id/quotationMenu"
+        android:title="Today's Quotation" />
+</menu>

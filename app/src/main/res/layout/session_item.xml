@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingTop="10dp"
+    android:paddingLeft="8dp"
+    android:layout_height="match_parent"
+
+    android:onClick="getSession"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/sessionList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="3dp"
+        tools:text="Session Name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
