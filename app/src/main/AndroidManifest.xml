@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.kiit.health">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name=".hostrack.Hostrack"></activity>
+        <activity android:name=".login.mainac" />
+        <activity android:name=".Food" />
+        <activity android:name=".login.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login.LoginActivity" />
+        <activity android:name=".login.newpassverify" />
+        <activity android:name=".login.VerificationCode" />
+        <activity android:name=".login.ResetPasswordActivity" />
+        <activity android:name=".login.SignUpActivity" />
+        <activity android:name=".activities.RexDashboardActivity" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:theme="@style/SplashTheme" />
+        <activity android:name=".activities.DietActivity" />
+        <activity android:name=".activities.ProfileActivity" />
+        <activity android:name=".activities.MoreInfo" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activities.PreferencesActivity"
+            android:label="@string/action_settings"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.MotivationAlertTextsActivity"
+            android:label="@string/activity_title_motivation_alerts"
+            android:parentActivityName=".activities.PreferencesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.PreferencesActivity" />
+        </activity>
+        <activity
+            android:name=".activities.WalkingModesActivity"
+            android:configChanges="orientation|screenSize|keyboard"
+            android:label="@string/activity_title_walking_modes"
+            android:parentActivityName=".activities.PreferencesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.PreferencesActivity" />
+        </activity>
+        <activity
+            android:name=".activities.WalkingModeLearningActivity"
+            android:label="@string/activity_title_walking_modes"
+            android:parentActivityName=".activities.WalkingModesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.WalkingModesActivity" />
+        </activity>
+        <activity
+            android:name=".activities.DistanceMeasurementActivity"
+            android:label="@string/action_distance_measurement"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".hydration.MainWindow.MainActivity"
+            android:theme="@style/hydrationtheme" />
+        <activity
+            android:name=".hydration.WaterDrankHistory.DateLogActivity"
+            android:theme="@style/hydrationtheme" />
+        <activity
+            android:name=".hydration.WaterDrankHistory.TimeLogActivity"
+            android:theme="@style/hydrationtheme" />
+        <activity
+            android:name=".hydration.Settings.SettingsActivity"
+            android:theme="@style/hydrationtheme" />
+        <activity android:name=".yoga.DashExerciseActivity" />
+        <activity android:name=".yoga.TopSessionsActivity" />
+        <activity android:name=".yoga.PoseActivity" />
+        <activity android:name=".yoga.AddPoseActivity" />
+        <activity android:name=".yoga.TopPosesActivity" />
+        <activity android:name=".yoga.SessionActivity" />
+        <activity android:name=".yoga.AddSessionActivity" />
+        <activity android:name=".yoga.QuotationActivity" />
+        <activity android:name=".yoga.AddSetActivity" />
+
+        <receiver android:name=".hydration.Notifications.NotificationReciever" />
+        <receiver
+            android:name=".hydration.BroadcastReceivers.DateLogBroadcastReceiver"
+          />
+        <receiver
+            android:name=".hydration.BroadcastReceivers.StopNotificationBroadcastReceiver"/>
+        <receiver
+            android:name=".hydration.BroadcastReceivers.BootBroadcastReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receivers.OnBootCompletedBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receivers.OnShutdownBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+                <!-- this is for some htc devices (and others) -->
+                <action android:name="android.intent.action.QUICKBOOT_POWEROFF" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receivers.OnPackageReplacedBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receivers.StepCountPersistenceReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name=".WALKING_MODE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receivers.MotivationAlertReceiver" />
+        <receiver android:name=".receivers.HardwareStepCountReceiver" />
+
+        <service
+            android:name=".hydration.Widget.UpdateWidgetService"
+            android:enabled="true"
+            android:exported="true" />
+        <service android:name=".services.HardwareStepCounterService" />
+        <service android:name=".services.MovementSpeedService" />
+        <service android:name=".services.AccelerometerStepDetectorService" />
+        <service
+            android:name=".services.HardwareStepDetectorService"
+            android:stopWithTask="false" />
+        <service
+            android:name=".services.AbstractStepDetectorService"
+            android:foregroundServiceType="location" />
+
+        <activity android:name=".medicine.MainActivity">
+
+        </activity>
+        <activity android:name=".medicine.AddReminderActivity"
+            android:label="@string/title_activity_add_reminder"
+            android:parentActivityName=".medicine.MainActivity"
+            android:theme="@style/AppTheme">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".medicine.MainActivity"
+                />
+        </activity>
+        <provider
+            android:name=".medicine.data.AlarmReminderProvider"
+            android:authorities="com.example.kiit.health.medicine"
+            android:exported="false" />
+
+        <service
+            android:name=".medicine.reminder.ReminderAlarmService"
+            android:exported="false" />
+
+
+
+
+    </application>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+</manifest>

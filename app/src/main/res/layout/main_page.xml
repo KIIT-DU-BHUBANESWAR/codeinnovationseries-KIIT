@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/tools"
+    android:background="@drawable/circularsolid"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:background="@drawable/circularsolid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="62dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circularsolid">
+                <TextView
+
+                    android:background="@drawable/circularsolid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Daily Hydration Progress"
+                android:textSize="25sp"
+                android:padding="15dp"
+                    android:textColor="#1E90FF"
+                android:tint ="@color/colorPrimaryace"
+                android:onClick="onClick3"/>
+
+            </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/main_view"
+        android:padding="20dp">
+
+        <com.github.lzyzsd.circleprogress.DonutProgress
+            android:id="@+id/donut_progress"
+            android:layout_width="220dp"
+            android:layout_height="210dp"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center"
+            custom:donut_finished_color="#87CEFA"
+            custom:donut_unfinished_stroke_width="5dp"
+            custom:donut_unfinished_color="#483D8B"
+            custom:donut_finished_stroke_width="10dp"
+            custom:donut_text_size="45sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#483D8B"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="180dp"
+            android:textSize="15sp"
+            android:id="@+id/choosen_drink_text"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/add_drink_button"
+            android:text="add a drink"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/white"
+            android:tint ="@color/colorPrimaryace"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:onClick="onClick3"
+            android:background="@drawable/my_gradient_drawable3"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="#1E90FF">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                >
+                <ImageButton
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/log_button"
+                    android:onClick="onClick2"
+                    android:src = "@drawable/history_icon"
+                    android:tint="@color/white"
+                    android:background="#1E90FF"
+                    />
+
+                <ImageButton
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/setting_button"
+                    android:src = "@drawable/setting_icon"
+                    android:tint="@color/white"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="90dp"
+                    android:onClick="onClick"
+                    android:background="#1E90FF"
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+</RelativeLayout>
