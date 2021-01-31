@@ -3,11 +3,11 @@
 *Step 2.* Run the following commands:
 
 
-`cd Team TBD
+`cd Team TBD`
 
- npm install
+ `npm install`
  
- npm start`
+ `npm start`
 
 
 Video Link:
