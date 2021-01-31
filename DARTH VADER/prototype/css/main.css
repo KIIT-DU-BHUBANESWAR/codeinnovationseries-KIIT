@@ -1,0 +1,421 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    font-family: arial, sans-serif;
+    background: #E6E6E6;
+}
+
+.top_section {
+    /* padding: 4%; */
+    background: #011c39;
+    color: white;
+    margin-top: 0;
+    background-image: url('./static/carousal.jpg');
+    height: 50%;
+    width: 100%;
+}
+
+.bottom_section {
+    padding: 4%;
+    background: #011c39;
+    color: white;
+    margin-top: 0;
+}
+
+section {
+    width: 50%;
+    float: left;
+}
+
+section h1 {
+    font-size: 40px;
+    color: orange;
+}
+
+.right {
+    width: 45%;
+    float: left;
+    margin: 2% 2%;
+}
+
+.main::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 2%;
+}
+
+.titles {
+    padding: 10% 0%;
+    font-weight: 600;
+    font-size: 125%;
+    color: #011c39;
+    box-shadow: 0 7px 17px rgba(0, 0, 0, 0.1);
+}
+
+.titles a {
+    text-decoration: none;
+    color: #011c39;
+}
+
+.titles li {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.videos {
+    padding: 5% 0%;
+    box-shadow: 0 7px 17px rgba(0, 0, 0, 0.1);
+}
+
+.link {
+    margin: 5% 0%;
+    padding: 5% 3%;
+    box-shadow: 0 7px 17px rgba(0, 0, 0, 0.1);
+}
+
+.img1 {
+    position: relative;
+    float: left;
+    padding-bottom: 0%;
+    padding-right: 2%;
+}
+
+.img2 {
+    padding: 0% 0%;
+    padding-left: 1%;
+}
+
+.text1 {
+    padding-left: 0% 0%;
+}
+
+.text1 h3 {
+    text-align: center;
+    font-size: 20px;
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+.text {
+    padding: 2% 2%;
+    text-align: left;
+}
+
+.text a {
+    text-decoration: none;
+    border: none;
+}
+
+.text h3 {
+    text-align: center;
+    font-size: 25px;
+    color: dodgerblue;
+}
+
+.text li {
+    margin-top: 2%;
+}
+
+.text2 {
+    position: relative;
+    float: left;
+    /* padding-bottom: 2%;
+    padding-top: 0%; */
+    padding-right: 2%;
+    width: 66%;
+}
+
+.text2 h3 {
+    text-align: center;
+    font-size: 20px;
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+iframe {
+    width: 70%;
+    height: 30%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    border-radius: 12px;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* FOOTER */
+
+footer {
+    box-shadow: 0 7px 17px rgba(0, 0, 0, 0.1);
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background-color: #011c39;
+}
+
+.footer>* {
+    flex: 100%;
+}
+
+.footer-left {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+
+.footer-left img {
+    width: 50%;
+}
+
+.footer-left b {
+    color: orange;
+}
+
+.footer h2 {
+    color: orange;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer li {
+    line-height: 2em;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer-right {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer-right>* {
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+
+.box a {
+    color: #999;
+}
+
+.footer-bottom {
+    text-align: center;
+    color: orange;
+    padding-top: 10px;
+}
+
+.footer-left p {
+    padding-right: 20%;
+    color: #999;
+}
+
+@media screen and (min-width: 600px) {
+    .footer-right>* {
+        flex: 1;
+    }
+    .footer-left {
+        flex: 1 0px;
+    }
+    .footer-right {
+        flex: 2 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer {
+        padding: 15px;
+    }
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: red;
+}
+
+
+/* BUTTONS */
+
+.read_more {
+    text-decoration: none;
+    border: none;
+    background: green;
+    border-radius: 12px;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+.read_more:hover {
+    background: dodgerblue;
+}
+
+.watch_video {
+    text-decoration: none;
+    border: none;
+    background: red;
+    border-radius: 12px;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+.watch_video:hover {
+    background: dodgerblue;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.blob-btn {
+    z-index: 1;
+    position: relative;
+    padding: 20px 46px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.blob-btn:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 6px solid #011c39;
+}
+
+.blob-btn:after {
+    content: "";
+    z-index: -2;
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    width: 100%;
+    height: 100%;
+    border: 6px solid #222;
+    transition: all 0.3s 0.2s;
+}
+
+.blob-btn:hover {
+    color: white;
+}
+
+.blob-btn:hover:after {
+    transition: all 0.3s;
+    left: 0;
+    top: 0;
+}
+
+.blob-btn__inner {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.blob-btn__blobs {
+    position: relative;
+    display: block;
+    height: 100%;
+    filter: url("#goo");
+}
+
+.blob-btn__blob {
+    position: absolute;
+    top: 6px;
+    width: 25%;
+    height: 100%;
+    background: #011c39;
+    border-radius: 100%;
+    transform: translate3d(0, 150%, 0) scale(1.7);
+    transition: transform 0.45s;
+}
+
+@supports (filter: url("#goo")) {
+    .blob-btn__blob {
+        transform: translate3d(0, 150%, 0) scale(1.4);
+    }
+}
+
+.blob-btn__blob:nth-child(1) {
+    left: 0%;
+    transition-delay: 0s;
+}
+
+.blob-btn__blob:nth-child(2) {
+    left: 30%;
+    transition-delay: 0.08s;
+}
+
+.blob-btn__blob:nth-child(3) {
+    left: 60%;
+    transition-delay: 0.16s;
+}
+
+.blob-btn__blob:nth-child(4) {
+    left: 90%;
+    transition-delay: 0.24s;
+}
+
+.blob-btn:hover .blob-btn__blob {
+    transform: translateZ(0) scale(1.7);
+}
+
+@supports (filter: url("#goo")) {
+    .blob-btn:hover .blob-btn__blob {
+        transform: translateZ(0) scale(1.4);
+    }
+}

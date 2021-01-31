@@ -1,0 +1,427 @@
+/* navbar css starts here */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "montserrat";
+  }
+  nav {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+  }
+  label.logo {
+    color: #2c3e50;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul {
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+  }
+  /* changes made */
+  a.active,
+  nav ul li a:hover {            
+    background: #1b9bff;
+    transition: 0.5s;
+  }
+  .checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+    cursor: pointer;
+  }
+  #check {
+    display: none;
+  }
+  @media (max-width: 952px) {
+    label.logo {
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px) {
+    .checkbtn {
+      display: block;
+    }
+    ul {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all 0.5s;
+    }
+    nav ul li {
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a {
+      font-size: 20px;
+    }
+    nav ul li a:hover,
+    a.active {
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ ul {
+      left: 0;
+    }
+  }
+
+/* navbar css ends here */
+
+/* login form styling */
+
+.login_center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+}
+
+.login_center h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.login_center form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .login_txt_field {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.login_txt_field input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.login_txt_field label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.login_txt_field span::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #2691d9;
+    transition: 0.5s;
+}
+
+.login_txt_field input:focus~label,
+.login_txt_field input:valid~label {
+    top: -5px;
+    color: #2691d9;
+}
+
+.login_txt_field input:focus~span::before,
+.login_txt_field input:valid~span::before {
+    width: 100%;
+}
+
+.login_pass {
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+}
+
+.login_pass:hover {
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #2691d9;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    border-color: #2691d9;
+    transition: 0.5s;
+}
+
+.login_signup_link {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+
+.login_signup_link a {
+    color: #2691d9;
+    text-decoration: none;
+}
+
+.login_signup_link a:hover {
+    text-decoration: underline;
+}
+
+/* login form styling ends here */
+
+/* signup form styling starts here */
+
+.register_center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.register_center h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.register_center form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .register_txt_field {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.register_txt_field input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.register_txt_field label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.register_txt_field span::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #2691d9;
+    transition: 0.5s;
+}
+
+.register_txt_field input:focus~label,
+.register_txt_field input:valid~label {
+    top: -5px;
+    color: #2691d9;
+}
+
+.register_txt_field input:focus~span::before,
+.register_txt_field input:valid~span::before {
+    width: 100%;
+}
+
+.register_pass {
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+}
+
+.register_pass:hover {
+    text-decoration: underline;
+}
+
+input[type="submit"] { 
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #2691d9;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    border-color: #2691d9;
+    transition: 0.5s;
+}
+
+.register_signup_link {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+
+.register_signup_link a {
+    color: #2691d9;
+    text-decoration: none;
+}
+
+.register_signup_link a:hover {
+    text-decoration: underline;
+}
+
+/* signup form styling ends here */
+
+/* search styling starts here */
+
+.search{
+  display: inline-block;
+  width:70%;
+  height:auto;
+  float: left;
+  margin-top:20px;
+}
+
+.search-result{
+  margin-bottom:20px;
+  margin-left:0px;
+  display:flex;
+}
+
+.thread-user{
+  display: inline-block;
+  width:10%;
+  float:left;
+  padding:1em;
+}
+
+.thread-details{
+  width:90%;
+  padding:10px 0px 0px 5px;
+  flex:1;
+}
+
+.suggestions{
+  margin-top:70px;
+  width:30%;
+  float:right;
+  height:auto;
+}
+
+.search-title{
+  text-align:left;
+  font-size: 30px;
+  padding:0px 0px 5px 20px;
+}
+
+form{
+  padding:10px 0px 5px 20px;
+}
+
+form input {
+  width: 25%;
+  border-style: none;
+  height: 30px;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+  background-color: gainsboro;
+}
+
+form input:focus {
+  outline: none;
+  height: 30px;
+  width: 30%;
+}
+
+.no-of-results{
+  padding:10px 0px 5px 20px;
+}
+
+.submit-btn{
+  border-radius: 5px;
+  border-style: solid;
+  width:90px;
+  height:30px;
+  cursor:pointer;
+  transition: 0.3s ease-in;
+}
+
+.submit-btn:hover{
+  width:100px;
+  height:35px;
+  transition: 0.3s ease-in-out;
+}
+
+.thread-desc{
+  padding-left:28px;
+}
+
+.thread-date{
+  padding-left:3%;
+}
+
+
+/* search styling ends here */
