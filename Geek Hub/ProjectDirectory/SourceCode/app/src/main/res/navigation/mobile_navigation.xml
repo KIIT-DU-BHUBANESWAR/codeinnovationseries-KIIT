@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_adult">
+
+    <fragment
+        android:id="@+id/navigation_adult"
+        android:name="com.android.qhackfst.ui.home.adult.AdultFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_adult" >
+        <action
+            android:id="@+id/action_navigation_adult_to_resultPreviewFragment"
+            app:destination="@id/resultPreviewFragment" />
+        <action
+            android:id="@+id/action_navigation_adult_to_resultsFragment"
+            app:destination="@id/resultsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_child"
+        android:name="com.android.qhackfst.ui.home.child.ChildFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_child" >
+        <action
+            android:id="@+id/action_navigation_child_to_doctoChat"
+            app:destination="@id/doctoChat" />
+        <action
+            android:id="@+id/action_navigation_child_to_cameraFragment"
+            app:destination="@id/cameraFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_oldie"
+        android:name="com.android.qhackfst.ui.home.oldie.OldieFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_oldie" >
+        <action
+            android:id="@+id/action_navigation_oldie_to_cameraFragment"
+            app:destination="@id/cameraFragment" />
+        <action
+            android:id="@+id/action_navigation_oldie_to_visionAI"
+            app:destination="@id/visionAI" />
+        <action
+            android:id="@+id/action_navigation_oldie_to_perkinsonFragment"
+            app:destination="@id/perkinsonFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/doctoChat"
+        android:name="com.android.qhackfst.ui.home.child.DoctoChat"
+        android:label="fragment_docto_chat"
+        tools:layout="@layout/fragment_docto_chat" >
+        <action
+            android:id="@+id/action_doctoChat_to_checkupCompleteFragment"
+            app:destination="@id/checkupCompleteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultPreviewFragment"
+        android:name="com.android.qhackfst.ui.home.adult.ResultPreviewFragment"
+        android:label="ResultPreviewFragment" />
+    <fragment
+        android:id="@+id/resultsFragment"
+        android:name="com.android.qhackfst.ui.home.adult.ResultsFragment"
+        android:label="ResultsFragment" >
+        <action
+            android:id="@+id/action_resultsFragment_to_resultPreviewFragment"
+            app:destination="@id/resultPreviewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.android.qhackfst.ui.home.oldie.CameraFragment"
+        android:label="CameraFragment" />
+    <fragment
+        android:id="@+id/visionAI"
+        android:name="com.android.qhackfst.ui.home.oldie.VisionAI"
+        android:label="fragment_vision_a_i"
+        tools:layout="@layout/fragment_vision_a_i" />
+    <fragment
+        android:id="@+id/perkinsonFragment"
+        android:name="com.android.qhackfst.ui.home.oldie.PerkinsonFragment"
+        android:label="PerkinsonFragment" />
+    <fragment
+        android:id="@+id/checkupCompleteFragment"
+        android:name="com.android.qhackfst.ui.home.child.CheckupCompleteFragment"
+        android:label="fragment_checkup_complete"
+        tools:layout="@layout/fragment_checkup_complete" />
+</navigation>
