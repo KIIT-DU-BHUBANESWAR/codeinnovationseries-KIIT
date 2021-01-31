@@ -1,0 +1,14 @@
+MedicareBot
+
+
+Our very own personal medical assistant, which is available on our fingertips. It is an application which is useful in buying medicines as well as performing regular checkups.
+Consists of various tools which is useful in predicting the tests a patient should undergo, helpful in booking an appointment through a hassle free process.
+Shows the live status of doctors: whether they are late or on schedule. 
+It works in 3 languages English Bengali and Hindi.
+
+Based upon a survey of 50 people, we have inferred that 95% of the people find it difficult to  book an appointment with doctors and receptionists can be rude at times.
+Sometimes, their calls are not received and the grievances are not taken care of.
+Also, 97% of the people said that doctors are often late, thus they have to wait for a long period of time in the hospital/ chamber.
+Our application will take care of all these real life problems and provides a solution for the same.
+
+Python, Machine Learning, NLP, Flutter, Dart has been use and for deployment: Firebase
