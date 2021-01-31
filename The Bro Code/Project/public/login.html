@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta name="description" content="Login to Note Junction and enjoy tons of notes online. We offer notes for B.Tech.">
+  
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login To NOTES JUNCTION</title>
+    <link href="My_Files/style.css" rel="stylesheet" type="text/css">
+
+    <link rel="icon" href="https://lh3.googleusercontent.com/U0lQ5aL6Z5e-fQZIHXc71SA3cKQX6Gi_Ig4xW1wX7Oalnp3OilAnMCo829ifO9onM0M=w300">
+    
+    <style>
+      @media only screen and (max-width:767px){
+
+                            #exm{
+
+                              font-size: 30px;
+                              letter-spacing: 0;
+
+                    }
+
+                    #soln{
+                            font-size: 20px;
+                    }
+
+                    #our{
+                            font-size: 15px;
+                    }
+
+                    #logn{
+                        font-size:20px;
+                        margin-bottom: 0;
+                        padding: 0;
+
+                    }
+                    #logn::after{
+                      margin-bottom: 0;
+                      padding: 0;
+                    }
+		  .pic{
+			  padding-top: 200px!important;
+              height: 1000px!important;
+		  }
+          .nbsp{
+              
+              display: none!important;
+              
+          }
+          #heading_display{
+          font-size: 10px!important;
+          }
+		  
+		}
+
+    </style>
+		
+		
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,200i,300,300i,400,500&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		
+    <script type="text/javascript" src="My_Files/script.js"></script>
+    
+  
+    
+    
+    	<style type="text/css">
+			.pic{
+				background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(8, 255, 17, 0.19)),url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=841&q=80');
+				background-size:cover;
+				background-position: center;
+				height: 800px;
+				padding-top: 250px;
+			}
+			form{
+				opacity: 1;
+			}
+            #intro{
+                display: none;
+                color: white;
+            }
+		</style>
+    
+
+           
+<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+
+
+
+     <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-auth.js"></script>
+
+
+<script>
+  
+  var firebaseConfig = {
+    apiKey: "AIzaSyCShnm1wRIti5BS4tCRbKSe1Ta32RXl88I",
+    authDomain: "notesjunction.in",
+    databaseURL: "https://quizza-pro.firebaseio.com",
+    projectId: "quizza-pro",
+    storageBucket: "quizza-pro.appspot.com",
+    messagingSenderId: "546457477793",
+    appId: "1:546457477793:web:c7af9087113fc2c6bdc6e0"
+  };
+  
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+    
+
+<script src="https://www.gstatic.com/firebasejs/ui/4.6.0/firebase-ui-auth.js"></script>
+<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.6.0/firebase-ui-auth.css" />
+<script type="text/javascript">
+  
+  var ui = new firebaseui.auth.AuthUI(firebase.auth());
+
+  var uiConfig = {
+    signInSuccessUrl: 'index.html',
+    signInOptions: [
+      
+      firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+    
+    {
+      provider: firebase.auth.PhoneAuthProvider.PROVIDER_ID,
+      recaptchaParameters: {
+        type: 'image', 
+        size: 'normal', // 'invisible' or 'compact'
+        badge: 'bottomleft' //' bottomright' or 'inline' applies to invisible.
+      },
+      defaultCountry: 'IN', 
+      whitelistedCountries: ['IN', '+91']
+    }
+    
+    ],
+    
+    tosUrl: 'terms.html',
+    
+    privacyPolicyUrl: function() {
+      window.location.assign('policy.html');
+    }
+  };
+
+  
+  ui.start('#firebaseui-auth-container', uiConfig);
+</script>
+	<style type="text/css">
+		.h4{
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	
+}
+.h4::after{
+	display: block;
+	content: " ";
+	height: 2px;
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 0;
+	background-color: #04836a;
+}
+		.para{
+			color: white;
+			
+			
+		}
+		.login{
+			background-color: white;
+			width: 80%!important;
+			margin-left: 20px;
+			opacity: 0.8;
+		}
+		
+  </style>
+  <script data-ad-client="ca-pub-5932055179268216" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body>
+    <div class="d-flex flex-md-row flex-column align-items-center border-bottom box-shadow p-3 mb-1 fixed-top nav">
+			<img src="https://firebasestorage.googleapis.com/v0/b/quizza-pro.appspot.com/o/Profile_Pics%2Flogo.jpg?alt=media&token=a6f083bd-de32-4924-9678-dba0df88533a" height="50" width="50" class="mx-md-3">
+			<div><h4 class="font-weight-normal my-0 mr-md-auto mainhead" style="font-family:Lucida Console;">NOTES JUNCTION</h4><div><p class="my-0" style="font-size:15px; letter-spacing:1px">Your Favourite Notes Destination</p></div></div>
+			
+			
+		</div>
+	
+
+		<div class="pic">
+			<div class="container-fluid" style="margin-top: 0;">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<span class="para">
+			<div><h1 class="font-weight-normal display-3" id="exm" style="letter-spacing:2px; word-spacing:5px; color:rgba(73, 180, 7, 0.75)">Exam Fear ?</h1></div>
+	<div><h3 class="font-weight-light" id="soln">&nbsp;Get Solutions on Your Finger Tips</h3></div>
+	<div><p class="text-justify my-3 mx-2" id="our">Our goal is to improve the learning experience of every student and help them succeed in their education. We believe that different perspectives lead to better ideas. So the hands on notes from best and most trusted teachers will give you a clear perspective and will definitely help you understand the subjects better. This will surely make you fall in love with them. We make slearning Fun!<p></div></span>
+				
+                    
+                    
+                    
+				</div>
+                
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				
+				<div class="login">
+				<div>&nbsp;</div>
+				<div class="text-center">
+						
+				<h4 class="h4" id="logn">GET STARTED</h4>
+					
+				</div>
+
+			
+            	
+				
+                    <div class="nbsp">&nbsp;</div>
+				<div class="text-center" id="firebaseui-auth-container"></div>
+                    <div>&nbsp;</div>
+                    
+
+			
+				</div>
+				</div>
+				
+				</div>
+			
+			
+			
+			
+			
+			
+			</div>
+			
+		
+		</div>
+</body>
+</html>

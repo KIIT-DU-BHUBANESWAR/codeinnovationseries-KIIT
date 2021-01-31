@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: white;
+    color: #333131;
+    font-family: 'raleway','arial',sans-serif;
+	font-weight: 300!important;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+	font-size: 18px;
+}
+.nav{
+	
+	z-index: 9999;
+	background-color: white;
+}
+.mainhead{
+	color: rgba(73, 180, 7, 0.75);
+	letter-spacing: 0.5px;
+}
+.box-shadow{
+	box-shadow: 2px 2px 2px #dcdcdc;
+}
+.nav_options:hover{
+	text-decoration: none!important;
+	border-bottom: 2px solid #04836a;
+	color: #04836a!important;
+}
+/*========================Carousel=============================*/
+.caro{
+	margin-top: 20px!important;
+}
+.caro img{
+	width: auto;
+	height: 91vh;
+}
+/*===========================About Us==========================*/
+.aboutus{
+	
+	padding: 100px 150px;
+}
+.aboutus h2{
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	text-align: center;
+}
+.aboutus h2::after{
+	display: block;
+	content: " ";
+	height: 2px;
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	background-color: #04836a;
+}
+.aboutus p{
+	font-size: 20px;
+}
+/*===========================Subjects==========================*/
+.subjects h2{
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	text-align: center;
+	margin-top: 50px;
+}
+.subjects h2::after{
+	display: block;
+	content: " ";
+	height: 2px;
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	background-color: #04836a;
+}
+.subjects img{
+	height: 200px;
+	width: 100%;
+}
+.subjects a:hover{
+	text-decoration: none!important;
+	color: green;
+}
+/*=======================Hidden Subjects=======================*/
+.Hiddensubjects{
+	display: none;
+}
+.Hiddensubjects h2{
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	text-align: center;
+	margin-top: 100px;
+}
+.Hiddensubjects h2::after{
+	display: block;
+	content: " ";
+	height: 2px;
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	background-color: #04836a;
+}
+.Hiddensubjects img{
+	height: 200px;
+	width: 100%;
+}
+.Hiddensubjects a:hover{
+	text-decoration: none!important;
+	color: green;
+}
+h5:hover{
+	color: #04836a;
+}
+/*=================================LEGECY=========================*/
+.legecy{
+	margin-top: 100px;
+	padding: 100px 100px;
+}
+.legecy h2{
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	text-align: center;
+}
+.legecy h2::after{
+	display: block;
+	content: " ";
+	height: 2px;
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	background-color: #04836a;
+}
+.legecy svg{
+	font-size: 100px; 
+	margin-bottom: 50px;
+}
+/*=================================Testimonial=====================*/
+.testimonial{
+			background-image:linear-gradient(rgba(0, 0, 0, 0.58),rgba(7, 29, 1, 0.41)),url('https://images.unsplash.com/photo-1594938581001-b4df83b42acd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+			background-size: cover;
+			padding: 50px 0 150px 0;
+			position: relative;
+			margin-bottom: 50px;
+		}
+.testimonial h2{
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	text-align: center;
+	color: white;
+}
+.testimonial h2::after{
+	display: block;
+	content: " ";
+	height: 2px;
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	background-color: #04836a;
+}
+		.testimonial img{
+			height: 100%;
+		}
+		.testimonial .carousel-control-prev,
+		.testimonial .carousel-control-next{
+			background: transparent!important;
+		}
+		.img-area{
+			width: 150px;
+			height: 150px;
+			margin: auto;
+			border: 2px solid #fff;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+		.img-area img{
+			width: 100%;
+		}
+		.testimonial .carousel-caption{
+			position: static!important;
+			padding-bottom: 50px!important;
+			padding-top: 0!important;
+		}
+		.testimonial .carousel-caption h3{
+			font-size: 25px!important;
+			margin-bottom: 15px!important;
+			margin-top: 25px!important;
+		}
+		.testimonial .carousel-caption h4{
+			color: #04836a;
+		}
+		.testimonial .carousel-caption p{
+			font-size: 18px!important;
+			margin: auto;
+			width: 70%!important;
+			margin-bottom: 10px!important;
+		}
+/*=================================FOOTER=========================*/
+footer{
+	background-color: #282828;
+	width: 100%;
+	font-size: 15px;
+}
+.footer-top{
+	
+	color:#aba8a8;
+	padding: 10px 0px;
+
+
+}
+.footer-widget{	
+	margin-top: 40px;
+    margin-left: 0px 10px;
+    text-align: justify;
+}
+.widget-title{
+	color:#04836a;
+	margin-left: 17px;
+	margin-bottom: 20px;
+    margin-top: 10px;
+	text-transform: uppercase;
+	font-size: 23px;
+}
+.about-widget p
+{
+	line-height: 20px;
+	margin:10px 0 30px 0;
+}
+.cards{
+	display: inline-block;
+	font-size: 32px;
+	margin-right: 12px;
+
+}
+.about-widget p span{
+	margin-right: 10px;
+}
+
+.information-widget ul li{
+	margin-left:5px;
+	padding-top: 7px;
+}
+.information-widget ul li a{
+	color: #aba8a8;
+	text-decoration: none;
+}
+.information-widget ul li a:hover{
+	color: #04836a;
+	text-decoration: none;
+	transition: all 1.0s ease;
+}
+
+.categories-widget ul li{
+	margin-left:5px;
+	padding-top: 7px;
+}
+.categories-widget ul li a{
+	color: #aba8a8;
+	text-decoration: none;
+}
+.categories-widget ul li a:hover{
+	color: #04836a;
+	text-decoration: none;
+	transition: all 1.0s ease;
+}
+.contact-add{
+	padding-bottom: 5px;
+	margin-left:5px;
+	border-bottom: 1px solid #aba8a8;
+}
+
+.contact-no{
+	padding-bottom: 5px;
+	margin-left:5px;
+
+}
+.contact-email{
+	padding-bottom: 10px;
+	margin-left:5px;
+
+}
+.facebook a{
+	color:#aba8a8;
+	font-size: 27px; 
+	padding-bottom: 10px;
+	margin-right: 15px;
+}
+.facebook a:hover{
+	color:  #3b5998;
+	font-size: 27px; 
+	padding-bottom: 10px;
+	margin-right: 15px;
+}
+.tweet a{
+	color:#aba8a8;
+	font-size: 27px; 
+	padding-bottom: 10px;
+	margin-right: 15px;
+}
+.tweet a:hover{
+	color:#00acee;
+	font-size: 27px; 
+	padding-bottom: 10px;
+	margin-right: 15px;
+}
+.googleplus a{
+	color:#aba8a8;
+	font-size: 27px; 
+	padding-bottom: 10px;
+	margin-right: 15px;
+}
+.googleplus a:hover{
+	color: #db4a39;
+	font-size: 27px; 
+	padding-bottom: 10px;
+	margin-right: 15px;
+}
+.linkedin a{
+	color:#aba8a8;
+	font-size: 27px; 
+	padding-bottom: 10px;
+	margin-right: 15px;
+}
+.linkedin a:hover{
+	color:#0e76a8;
+	font-size: 27px; 
+	padding-bottom: 10px;
+	margin-right: 15px;
+}
+
+.footer-bottom-text{
+	text-align: center;
+	margin-top: 10px;
+
+}
