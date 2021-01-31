@@ -1,0 +1,110 @@
+@media only screen and (max-width:480px){
+	.testimonial img{
+			height: 100%;
+		}
+	.testimonial img{
+			height: 100%;
+		}
+		.testimonial .carousel-control-prev,
+		.testimonial .carousel-control-next{
+			background: transparent!important;
+		}
+	.img-area{
+			width: 150px;
+			height: 150px;
+		margin-bottom: 100px;
+			
+			border: 2px solid #fff;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+	.testimonial .carousel-caption{
+		display: block;
+		font-size: 10px;
+			position: absolute!important;
+			bottom: 100px!important;
+			padding-bottom: 50px;
+			padding-top: 50px;
+		}
+		.testimonial .carousel-caption h3{
+			font-size: 10px!important;
+			margin-bottom: 15px!important;
+			margin-top: 15px!important;
+		}
+		.testimonial .carousel-caption h4{
+			color: #04836a;
+		}
+		.testimonial .carousel-caption p{
+			font-size: 18px!important;
+			margin: auto;
+			width: 70%!important;
+			margin-bottom: 10px!important;
+		}
+	
+	
+}
+
+
+
+@media only screen and (max-width:767px){
+	.testimonial img{
+			height: 100%;
+		}
+	.testimonial img{
+			height: 100%;
+		}
+		.testimonial .carousel-control-prev,
+		.testimonial .carousel-control-next{
+			background: transparent!important;
+		}
+	.img-area{
+			width: 150px;
+			height: 150px;
+		margin-bottom: 100px;
+			
+			border: 2px solid #fff;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+	.testimonial .carousel-caption{
+		display: block;
+		font-size: 10px;
+			position: absolute!important;
+			bottom: 100px!important;
+			padding-bottom: 50px;
+			padding-top: 50px;
+		}
+		.testimonial .carousel-caption h3{
+			font-size: 10px!important;
+			margin-bottom: 15px!important;
+			margin-top: 15px!important;
+		}
+		.testimonial .carousel-caption h4{
+			color: #04836a;
+		}
+		.testimonial .carousel-caption p{
+			font-size: 18px!important;
+			margin: auto;
+			width: 70%!important;
+			margin-bottom: 10px!important;
+		}
+	
+	
+	#heading_display{
+		margin-top: 200px!important;
+    
+	}
+	
+	#viewer{
+		padding: 50px;
+	}
+	#viewer .btn{
+		padding: 5px!important;
+		margin-bottom: 20px!important;
+	}
+	#viewer input{
+		width: 70px!important;
+		height: 60px!important;
+	}
+    
+}
