@@ -1,9 +1,9 @@
 *Step 1.* Clone my directory.
 *Step 2.* Run the following commands:
 
-###cd Team TBD
-###npm install
-###npm start
+```cd Team TBD
+ npm install
+ npm start```
 
 
 Video Link:
