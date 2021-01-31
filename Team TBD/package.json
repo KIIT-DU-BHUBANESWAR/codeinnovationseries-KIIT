@@ -1,0 +1,57 @@
+{
+  "name": "tution",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@syncfusion/ej2-react-inputs": "^18.1.59",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "chart.js": "^2.9.3",
+    "draft-js": "^0.11.7",
+    "draftjs-to-html": "^0.9.1",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-chartjs-2": "^2.9.0",
+    "react-dom": "^16.13.1",
+    "react-draft-wysiwyg": "^1.14.5",
+    "react-image-crop": "^8.6.4",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-player": "^2.5.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "react-slick": "^0.26.1",
+    "react-toastify": "^6.0.8",
+    "reactjs-file-uploader": "^1.0.8",
+    "reactstrap": "^8.5.1",
+    "slick": "^1.12.2",
+    "styled-loaders-react": "^1.1.0",
+    "toastify": "^2.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
