@@ -4,4 +4,6 @@ GROUP MEMEBERS OF AKATSUKI:
 -Arun Mishra
 -Vikaram Mohanty
 
-We are attaching our ideation documentation and presentation of our project.
+Link to Ideation Document:https://drive.google.com/file/d/1qHaGOF6c5ickHhWkGR_2ZxvhcS_4WTEb/view?usp=sharing
+
+Link to Presentation:https://drive.google.com/file/d/1bGS0XKtJj4GEPonUFvLz4cg3fm8BmDyc/view?usp=sharing
