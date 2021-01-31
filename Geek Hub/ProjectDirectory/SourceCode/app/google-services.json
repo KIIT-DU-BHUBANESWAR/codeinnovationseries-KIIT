@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "465867974583",
+    "firebase_url": "https://qhackfst.firebaseio.com",
+    "project_id": "qhackfst",
+    "storage_bucket": "qhackfst.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465867974583:android:58e93a553a4df68afaea32",
+        "android_client_info": {
+          "package_name": "com.android.qhackfst"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465867974583-t77utp1g97ehuon1l6kkqbdd2ki8cgli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXMZKKSfXFkQajzWhktdU8bsmu6xgt6hI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465867974583-t77utp1g97ehuon1l6kkqbdd2ki8cgli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

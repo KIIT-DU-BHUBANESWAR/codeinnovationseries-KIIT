@@ -1,0 +1,30 @@
+Project Name: 
+Docto-A token of health for everyone.
+
+Description: 
+In the current situation of COVID-19, all the essential services including healthcare 
+have become difficult to be physically accessed, pertaining to the need of social distancing and high 
+risk of virus transmission in public areas such as a hospital or a health-care center. Thus, in order to 
+preliminarily self-diagnose the diseases using AI enabled software and furthermore ease the process of 
+consulting a doctor, we have developed a mobile application named Docto.
+
+Salient Features:
+1. An interactive chatbot with an appealing UI for easing children to list their symptoms and get a 
+recommendation.
+
+2. Specialized consultations and diagnosis available for children, adult and elderly people.
+
+3. For adults, an AI enabled X-Ray based COVID-19 diagnosis tool which also serves as an aid to the doctors.
+
+4. For elderly, an AI based Parkinson’s disease diagnosis tool, using two independent tests 
+which requires only a paper, a pencil and a smartphone.
+
+5. An AI aided blind vision assistance tool to transcript the surroundings of the patients in short 
+and read them aloud to the patient.
+
+6. For patients of high blood pressure, the application can directly measure the pulse rate of an 
+individual using the method of PPG using the phone camera, without any additional hardware.
+
+Contents of the Project Directory:
+1. The source code of the mobile application in the folder named "SourceCode"
+2. The final installable apk build of the mobile application in the folder named "AppBuild"
